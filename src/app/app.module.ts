@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { HsbcComponent } from './hsbc/hsbc.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HsbcComponent
   ],
   imports: [
     BrowserModule
